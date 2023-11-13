@@ -1138,7 +1138,41 @@ label {
         margin-right: 115px;
         
     }
+
+    /*PORTFOLIO MOBILE VIEW*/
+
+    .buttons-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .main-div-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    
+    }
+
+    /*MODAL MOBILE VIEW*/
+    .main-modal {
+        position: absolute;
+        top: 50%;
+        left: 46%;
+        min-width: 350px;
+        min-height: 560px;
+        background-color: var(--dairy);
+        padding: 70px 25px 25px;
+        
+        
+    }
 }
+
 
 @media only screen and (min-width:768px) {
     .menu-toggle {

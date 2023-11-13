@@ -9,7 +9,6 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The viewport meta tag is important for adaptive pages</title>
 </head>
 <body>
 
@@ -29,6 +28,13 @@
                     <li class="item"><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
                     <li class="item"><a href="tel:+11(000)1111111" class="contact link">+11 (000) 111-11-11</a></li>
                 </ul>
+                <!--Burger button-->
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                  <svg class="mobile-menu-icon" width="32" height="22">
+                      <use href="./images/icons.svg#burger" />
+                  </svg>
+              </button>
+
             </address>
         </div>
     </header>
@@ -316,5 +322,6 @@
               </form>
           </div>
         </footer>
+        <script src="./js/mobile-menu.js"></script>
     </body>
   </html>
