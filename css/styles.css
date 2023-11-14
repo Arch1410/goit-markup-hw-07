@@ -1136,11 +1136,9 @@ label {
         align-items: center;
         justify-content: center;
         margin-right: 115px;
-        
     }
 
     /*PORTFOLIO MOBILE VIEW*/
-
     .buttons-container {
         width: 100%;
         display: flex;
@@ -1148,7 +1146,6 @@ label {
         margin: 0;
         align-items: center;
         justify-content: center;
-
     }
 
     .main-div-container {
@@ -1156,7 +1153,6 @@ label {
         align-items: center;
         justify-content: center;
         margin: 0;
-    
     }
 
     /*MODAL MOBILE VIEW*/
@@ -1167,15 +1163,21 @@ label {
         min-width: 350px;
         min-height: 560px;
         background-color: var(--dairy);
-        padding: 70px 25px 25px;
-        
-        
-    }
+        padding: 70px 25px 30px;
+       }
 }
-
 
 @media only screen and (min-width:768px) {
     .menu-toggle {
         display: none;
     }
 }
+
+/* TABLET VIEW QUERY*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
