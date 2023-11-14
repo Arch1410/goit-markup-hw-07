@@ -67,6 +67,20 @@ address {
     padding: 0 15px;
 }
 
+/* TABLET VIEW QUERY*/
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list-container {
+        display: flex;
+    }
+}
+
 /* A Class given to Section Tags */
 .section {
     padding: 120px 0;
@@ -1172,12 +1186,3 @@ label {
         display: none;
     }
 }
-
-/* TABLET VIEW QUERY*/
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-
-}
-
